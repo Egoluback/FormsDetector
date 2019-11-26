@@ -33,3 +33,13 @@ Mode is a mode of analyzing your value; it may be:
 > "equals"; 
 
 > "less".
+
+# Example
+#### Simple example of detector initialization with yellow color as params
+
+```python
+detector = Detector(fillColor, IMAGE_PATH, [{"value": 70, "mode": "moreEquals"}, {"value": 70, "mode": "moreEquals"}, {"value": 150, "mode": "less"}], True)
+
+detector.Main()
+```
+
