@@ -9,6 +9,8 @@ Just import class into your program and start it with params:
 ```python
 from Detector import Detector
 
+IMAGE_PATH = "images/image.png"
+
 COLOR_PARAMS = [{"value": RED_COLOR_VALUE, "mode": MODE_RED}, {"value": GREEN_COLOR_VALUE, "mode": MODE_GREEN}, {"value": BLUE_COLOR_VALUE, "mode": MODE_BLUE}]
 
 FILL_COLOR = [0, 0, 0]
