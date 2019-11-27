@@ -40,6 +40,10 @@ Mode is a mode of analyzing your value; it may be:
 #### Simple example of detector initialization with yellow color as params
 
 ```python
+
+IMAGE_PATH = "images/image.png"
+fillColor = [0, 0, 0]
+
 detector = Detector(fillColor, IMAGE_PATH, [{"value": 70, "mode": "moreEquals"}, {"value": 70, "mode": "moreEquals"}, {"value": 150, "mode": "less"}], True)
 
 detector.Main()
